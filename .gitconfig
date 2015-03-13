@@ -1,0 +1,37 @@
+[user]
+	name = Gerónimo Garcia
+	email = garciasgritta@gmail.com
+[alias]
+    gs = status
+    lg = log --graph --pretty=format:"%C(cyan)%h%Creset\\ -%C(yellow)%d%Creset\\ %s\\ %Cgreen(%cr)\\ %C(bold\\ blue)<%an>%Creset" --abbrev-commit
+    ls = log --pretty=format:"%C(yellow)%h%C(magenta)%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate
+    ll = log --pretty=format:"%C(yellow)%h%C(magenta)%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --numstat
+    lnc = log --pretty=format:"%h\\ %s\\ [%cn]"
+    lds = log --pretty=format:"%C(yellow)%h\\ %ad%C(magenta)%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=short
+    ld = log --pretty=format:"%C(yellow)%h\\ %ad%C(magenta)%d\\ %Creset%s%C(cyan)\\ [%cn]" --decorate --date=relative
+    la = "!git config -l | grep alias | cut -c 7-"  
+    dl = "!git ll -1"
+    dlc = diff --cached HEAD^
+    f = "!git ls-files | grep -i"
+    grep = grep -Ii
+    gr = grep -Ii
+    gra = "!f() { A=$(pwd) && TOPLEVEL=$(git rev-parse --show-toplevel) && cd $TOPLEVEL && git grep --full-name -In $1 | xargs -I{} echo $TOPLEVEL/{} && cd $A; }; f"
+    st = status -sb
+    pr = pull --rebase
+    co = checkout
+    rh = reset --hard
+[color]
+	ui = true
+[merge]
+	tool = p4merge
+[mergetool]
+	prompt = false
+	keepBackup = false
+[mergetool "p4merge"]
+	path = /usr/local/bin/p4merge
+[push]
+	default = matching
+[filter "hawser"]
+	clean = git hawser clean %f
+	smudge = git hawser smudge %f
+	required = true
