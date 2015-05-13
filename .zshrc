@@ -48,7 +48,7 @@ alias mysql_stop="sudo /usr/local/mysql/support-files/mysql.server stop"
 alias gocold="GMAIL_USERNAME=\"coldleads4cash.dev.user1@gmail.com\" GMAIL_PASSWORD=\"9J9+7P7=-36.Q|+_49N87S.4|8GNZ5Ut\" bin/rails server"
 alias redisgo="redis-server /usr/local/etc/redis.conf"
 alias coldsrv="ssh deployer@uat.cl4c.dowhale.com"
-alias brainiacsrv="ssh 104.236.54.54"
+alias brainiacsrv="ssh deployer@104.236.54.54"
 alias gomongo="mongod -f /usr/local/Cellar/mongodb/3.0.2/mongod.conf"
 
 source $ZSH/oh-my-zsh.sh

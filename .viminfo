@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/bin
+~MSle0~/password_com
 
 # Last Substitute Search Pattern:
 ~MSle0&($fContents),\s(.*)
@@ -57,6 +57,8 @@ $
 :e .gvimec
 
 # Search String History (newest to oldest):
+?/password_com
+?/password_omp
 ?/Applications/Emacs.app/Contents/MacOS/Emacs "$@"
 ?/bin/sh
 ?/seleniumAddress
@@ -131,64 +133,101 @@ $
 # Input Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	Host github.searshc.com
-	User git
-	Hostname github.searshc.com
-	IdentityFile ~/.ssh/gsgritt 
-	
-	
+""0	CHAR	0
+	104.236.54.54"
 "1	LINE	0
-	Normalize schema.rb
+	Hostname uat.cl4c.dowhale.com 
 "2	LINE	0
-	Update scheme.rb with user details
+	/log/*
 "3	LINE	0
-	
+	/tmp
 "4	LINE	0
 	
 "5	LINE	0
-	!/log/.keep
+	/db/*.sqlite3-journal
 "6	LINE	0
-	/log/*
+	/db/*.sqlite3
 "7	LINE	0
-	/tmp
+	# Ignore the default SQLite database.
 "8	LINE	0
-	
+	Normalize schema.rb
 "9	LINE	0
-	#   git config --global core.excludesfile '~/.gitignore_global'
+	Update scheme.rb with user details
 "w	CHAR	0
 	jkklllw
-""-	CHAR	0
-	m
+"-	CHAR	0
+	t
 
 # File marks:
 'N  1121  15  ~/projects/photostore/php.ini
-'0  39  6  ~/.emacs.d/.gitignore
-'1  38  7  ~/.emacs.d/.gitignore
-'2  158  10  ~/.vimrc
-'3  53  0  ~/.zshrc
-'4  41  8  ~/dowhale/coldleads4cash/.gitignore
-'5  7  12  ~/.ssh/config
-'6  1  0  ~/projects/wlcc-automation-dashboard/.gitignore
-'7  1  0  ~/projects/wlcc-automation-dashboard/.git/MERGE_MSG
-'8  1  0  ~/.zshrc
-'9  48  117  ~/.zshrc
+'0  105  5  ~/.gitignore
+'1  51  31  ~/.zshrc
+'2  24  0  ~/.ssh/config
+'3  36  8  ~/dowhale/instant-srv/.gitignore
+'4  52  55  ~/.zshrc
+'5  39  6  ~/.emacs.d/.gitignore
+'6  30  20  ~/.gitconfig
+'7  24  9  ~/.gitconfig
+'8  1  0  ~/dowhale/instant-srv/.git/config
+'9  5  37  ~/projects/Photostore/.gitignore
 
 # Jumplist (newest first):
+-'  105  5  ~/.gitignore
+-'  102  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  79  58  ~/.gitignore
+-'  51  31  ~/.zshrc
+-'  24  0  ~/.ssh/config
+-'  5  0  ~/.ssh/config
+-'  36  8  ~/dowhale/instant-srv/.gitignore
+-'  34  0  ~/dowhale/instant-srv/.gitignore
+-'  52  55  ~/.zshrc
 -'  39  6  ~/.emacs.d/.gitignore
+-'  30  20  ~/.gitconfig
+-'  24  9  ~/.gitconfig
+-'  4  0  ~/.gitconfig
+-'  1  0  ~/dowhale/instant-srv/.git/config
+-'  5  37  ~/projects/Photostore/.gitignore
+-'  1  0  ~/projects/Photostore/.gitignore
+-'  1  0  ~/projects/docs/wlcc-info/.git/MERGE_MSG
+-'  8  63  ~/projects/docs/wlcc-info/design-specs.md
+-'  1  0  ~/projects/docs/wlcc-info/design-specs.md
+-'  9  11  ~/.zshrc
+-'  1  0  ~/..zshrc
+-'  11  0  ~/dowhale/instant-srv/.gitignore
+-'  10  0  ~/dowhale/instant-srv/.gitignore
+-'  28  4  ~/dowhale/instant-srv/.gitignore
+-'  22  4  ~/dowhale/instant-srv/.gitignore
+-'  1  0  ~/dowhale/instant-srv/.gitignore
+-'  49  52  ~/.zshrc
+-'  89  1  ~/projects/http2-resarch/util.js
+-'  1  0  ~/projects/http2-resarch/util.js
+-'  55  0  ~/projects/http2-resarch/server.js
+-'  40  18  ~/projects/http2-resarch/server.js
+-'  3  25  ~/projects/http2-resarch/server.js
+-'  1  0  ~/projects/http2-resarch/server.js
+-'  37  0  ~/.zshrc
+-'  29  42  ~/dowhale/coldleads4cash/app/models/user.rb
+-'  13  12  ~/dowhale/coldleads4cash/app/models/user.rb
+-'  1  0  ~/dowhale/coldleads4cash/app/models/user.rb
+-'  1  0  ~/projects/wlcc-automation-dashboard/.git/MERGE_MSG
+-'  57  0  ~/.zshrc
+-'  18  8  ~/.ssh/config
+-'  20  27  ~/.ssh/config
+-'  13  11  ~/.ssh/config
+-'  7  4  ~/.ssh/config
+-'  11  0  ~/.gitignore
+-'  14  11  ~/.gitignore
 -'  38  7  ~/.emacs.d/.gitignore
 -'  37  0  ~/.emacs.d/.gitignore
 -'  1  0  ~/.emacs.d/.gitignore
 -'  158  10  ~/.vimrc
--'  53  0  ~/.zshrc
 -'  1  0  ~/.zshrc
 -'  41  8  ~/dowhale/coldleads4cash/.gitignore
 -'  2  0  ~/dowhale/coldleads4cash/.gitignore
--'  7  12  ~/.ssh/config
 -'  6  0  ~/.ssh/config
 -'  1  0  ~/.ssh/config
 -'  1  0  ~/projects/wlcc-automation-dashboard/.gitignore
--'  1  0  ~/projects/wlcc-automation-dashboard/.git/MERGE_MSG
 -'  48  117  ~/.zshrc
 -'  1  0  ~/zshrc
 -'  47  70  ~/.zshrc
@@ -198,8 +237,8 @@ $
 -'  1  0  ~/dowhale/coldleads4cash/.git/rebase-merge/git-rebase-todo
 -'  44  36  ~/.zshrc
 -'  45  67  ~/.zshrc
--'  55  44  ~/.zshrc
--'  58  0  ~/.zshrc
+-'  59  44  ~/.zshrc
+-'  62  0  ~/.zshrc
 -'  1  20  ~/projects/wlcc-automation-dashboard/.git/COMMIT_EDITMSG
 -'  5  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
 -'  8  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
@@ -229,52 +268,293 @@ $
 -'  1  0  /usr/local/bin/gemacs
 -'  35  48  ~/dowhale/coldleads4cash/README.md
 -'  48  18  ~/dowhale/coldleads4cash/README.md
--'  1  0  ~/dowhale/coldleads4cash/.gitignore
--'  37  17  ~/dowhale/coldleads4cash/README.md
--'  6  6  ~/dowhale/coldleads4cash/README.md
--'  1  0  ~/dowhale/coldleads4cash/README.md
--'  37  0  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  1  0  ~/projects/grunt-protractor-coverage/test/protractorConf..js
--'  55  6  ~/projects/grunt-protractor-coverage/Gruntfile.js
--'  40  0  ~/projects/grunt-protractor-coverage/Gruntfile.js
--'  54  3  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  126  0  ~/projects/grunt-protractor-coverage/Gruntfile.js
--'  1  0  ~/projects/grunt-protractor-coverage/Gruntfile.js
--'  15  1  ~/projects/grunt-protractor-coverage/Gruntfile.js
--'  22  21  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  9  8  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  86  21  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  20  22  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  19  56  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  18  68  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  17  25  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  13  47  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  11  43  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  8  37  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  5  48  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  3  26  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  1  0  ~/projects/grunt-protractor-coverage/test/protractorConf.js
--'  87  16  ~/projects/grunt-protractor-coverage/Gruntfile.js
--'  8  0  ~/projects/wlcc-sal/.git/COMMIT_EDITMSG
--'  4  24  ~/projects/wlcc-sal/.git/COMMIT_EDITMSG
--'  2  0  ~/projects/wlcc-sal/.git/rebase-merge/git-rebase-todo
--'  103  2  ~/projects/wlcc-sal/app/scripts/map.flags/README.md
--'  106  0  ~/projects/wlcc-sal/app/scripts/map.flags/README.md
--'  1  0  ~/projects/wlcc-sal/app/scripts/map.flags/README.md
--'  7  0  ~/projects/wlcc-sal/.git/COMMIT_EDITMSG
--'  1  0  ~/projects/wlcc-sal/.git/COMMIT_EDITMSG
--'  67  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
--'  71  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
--'  74  26  ~/projects/logisticapp/.git/COMMIT_EDITMSG
--'  5  0  ~/projects/wlcc-sal/.git/COMMIT_EDITMSG
--'  1  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
--'  85  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
--'  90  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
--'  3  0  ~/projects/wlcc-sal/.git/COMMIT_EDITMSG
--'  4  0  ~/projects/wlcc-sal/.git/rebase-merge/git-rebase-todo
--'  94  0  ~/projects/logisticapp/.git/COMMIT_EDITMSG
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	105	5
+	^	105	6
+	.	105	5
+	+	97	9
+	+	96	0
+	+	97	0
+	+	95	10
+	+	94	0
+	+	93	0
+	+	92	0
+	+	91	3
+	+	90	0
+	+	89	9
+	+	88	8
+	+	87	0
+	+	86	0
+	+	85	4
+	+	84	0
+	+	83	0
+	+	82	0
+	+	81	0
+	+	80	0
+	+	79	0
+	+	78	0
+	+	77	0
+	+	76	0
+	+	75	0
+	+	74	0
+	+	73	0
+	+	72	0
+	+	73	0
+	+	74	0
+	+	76	11
+	+	74	17
+	+	73	12
+	+	72	5
+	+	71	0
+	+	70	0
+	+	69	0
+	+	68	0
+	+	67	0
+	+	66	0
+	+	65	0
+	+	64	11
+	+	63	0
+	+	62	5
+	+	61	0
+	+	60	10
+	+	59	0
+	+	58	0
+	+	57	0
+	+	56	4
+	+	55	2
+	+	54	12
+	+	53	0
+	+	52	0
+	+	51	0
+	+	50	8
+	+	49	0
+	+	48	0
+	+	47	0
+	+	46	5
+	+	45	0
+	+	44	12
+	+	43	0
+	+	42	0
+	+	41	11
+	+	40	12
+	+	39	0
+	+	40	0
+	+	39	0
+	+	38	8
+	+	37	0
+	+	36	0
+	+	35	0
+	+	37	5
+	+	36	8
+	+	35	10
+	+	34	0
+	+	33	7
+	+	32	0
+	+	31	0
+	+	30	0
+	+	29	0
+	+	28	6
+	+	27	0
+	+	26	0
+	+	25	9
+	+	24	0
+	+	23	0
+	+	22	11
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	18	0
+	+	17	11
+	+	18	16
+	+	19	1
+	+	79	59
+	+	105	5
+
+> ~/.zshrc
+	"	51	31
+	^	51	32
+	.	51	30
+	+	37	74
+	+	9	17
+	+	37	51
+	+	64	62
+	+	60	42
+	+	66	7
+	+	57	22
+	+	9	22
+	+	66	101
+	+	9	1
+	+	8	18
+	+	66	0
+	+	8	2
+	+	9	0
+	+	66	0
+	+	37	38
+	+	36	1
+	+	37	25
+	+	38	0
+	+	39	0
+	+	55	0
+	+	39	0
+	+	38	0
+	+	37	35
+	+	39	33
+	+	39	0
+	+	39	47
+	+	39	40
+	+	60	171
+	+	39	52
+	+	40	49
+	+	40	0
+	+	40	46
+	+	59	105
+	+	68	26
+	+	70	62
+	+	68	6
+	+	59	12
+	+	59	205
+	+	40	11
+	+	39	11
+	+	40	13
+	+	37	25
+	+	39	25
+	+	63	1
+	+	63	0
+	+	59	41
+	+	63	0
+	+	39	31
+	+	37	29
+	+	9	15
+	+	54	0
+	+	59	0
+	+	63	0
+	+	68	0
+	+	70	0
+	+	49	0
+	+	42	33
+	+	59	254
+	+	42	8
+	+	43	16
+	+	43	17
+	+	43	18
+	+	57	0
+	+	58	1
+	+	59	0
+	+	58	0
+	+	57	0
+	+	57	49
+	+	37	32
+	+	68	0
+	+	70	0
+	+	59	18
+	+	39	0
+	+	40	0
+	+	57	0
+	+	37	30
+	+	41	40
+	+	59	290
+	+	61	24
+	+	44	14
+	+	44	38
+	+	44	38
+	+	44	14
+	+	49	0
+	+	45	15
+	+	1	0
+	+	45	67
+	+	46	72
+	+	47	70
+	+	48	116
+	+	48	14
+	+	48	132
+	+	48	117
+	+	52	0
+	+	49	52
+	+	51	35
+	+	53	0
+	+	52	55
+	+	51	30
+	o	45	15
+
+> ~/.ssh/config
+	"	24	0
+	^	24	2
+	.	24	0
+	+	5	0
+	+	6	5
+	+	8	9
+	+	7	4
+	+	11	7
+	+	13	11
+	+	16	0
+	+	17	12
+	+	20	27
+	+	18	8
+	+	22	17
+	+	25	0
+	+	24	0
+
+> ~/dowhale/instant-srv/.gitignore
+	"	36	8
+	^	36	9
+	.	36	8
+	+	12	0
+	+	13	17
+	+	56	3
+	+	13	0
+	+	17	0
+	+	18	0
+	+	17	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	45	0
+	+	44	0
+	+	46	0
+	+	47	0
+	+	48	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+	+	53	0
+	+	54	0
+	+	55	0
+	+	56	0
+	+	14	0
+	+	10	0
+	+	12	0
+	+	11	0
+	+	33	0
+	+	32	0
+	+	34	0
+	+	36	8
 
 > ~/.emacs.d/.gitignore
 	"	39	6
@@ -282,6 +562,97 @@ $
 	.	39	6
 	+	38	7
 	+	39	6
+
+> ~/.gitconfig
+	"	30	20
+	^	24	10
+	.	4	0
+	+	4	0
+	+	4	0
+	+	4	0
+
+> ~/dowhale/instant-srv/.git/config
+	"	1	0
+
+> ~/projects/Photostore/.gitignore
+	"	5	37
+	^	5	38
+	.	6	0
+	+	4	21
+	+	6	0
+
+> ~/projects/docs/wlcc-info/.git/MERGE_MSG
+	"	1	0
+
+> ~/projects/docs/wlcc-info/design-specs.md
+	"	8	63
+	^	8	64
+	.	8	20
+	+	8	20
+
+> ~/..zshrc
+	"	1	0
+
+> ~/dowhale/coldleads4cash/.gitignore
+	"	4	0
+	^	22	27
+	.	22	26
+	+	37	2
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	0
+	+	21	0
+	+	22	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	33	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	37	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	2	0
+	+	2	0
+	+	42	8
+	+	23	0
+	+	22	26
+
+> ~/projects/http2-resarch/util.js
+	"	89	1
+	^	89	2
+	.	23	32
+	+	23	32
+
+> ~/projects/http2-resarch/server.js
+	"	55	0
+	^	40	21
+	.	40	20
+	+	40	27
+	+	3	25
+	+	40	20
+
+> ~/dowhale/coldleads4cash/app/models/user.rb
+	"	29	42
+	^	30	42
+	.	29	42
+	+	28	51
+	+	29	37
+	+	28	45
+	+	29	42
+
+> ~/projects/wlcc-automation-dashboard/.git/MERGE_MSG
+	"	1	0
 
 > ~/.vimrc
 	"	158	10
@@ -344,153 +715,6 @@ $
 	+	164	84
 	k	123	0
 
-> ~/.zshrc
-	"	53	0
-	^	48	118
-	.	48	117
-	+	9	11
-	+	10	0
-	+	9	17
-	+	37	15
-	+	56	112
-	+	37	74
-	+	9	17
-	+	37	51
-	+	60	62
-	+	56	42
-	+	62	7
-	+	53	22
-	+	9	22
-	+	62	101
-	+	9	1
-	+	8	18
-	+	62	0
-	+	8	2
-	+	9	0
-	+	62	0
-	+	37	38
-	+	36	1
-	+	37	25
-	+	38	0
-	+	39	0
-	+	51	0
-	+	39	0
-	+	38	0
-	+	37	35
-	+	39	33
-	+	39	0
-	+	39	47
-	+	39	40
-	+	56	171
-	+	39	52
-	+	40	49
-	+	40	0
-	+	40	46
-	+	55	105
-	+	64	26
-	+	66	62
-	+	64	6
-	+	55	12
-	+	55	205
-	+	40	11
-	+	39	11
-	+	40	13
-	+	37	25
-	+	39	25
-	+	59	1
-	+	59	0
-	+	55	41
-	+	59	0
-	+	39	31
-	+	37	29
-	+	9	15
-	+	50	0
-	+	55	0
-	+	59	0
-	+	64	0
-	+	66	0
-	+	49	0
-	+	42	33
-	+	55	254
-	+	42	8
-	+	43	16
-	+	43	17
-	+	43	18
-	+	53	0
-	+	54	1
-	+	55	0
-	+	54	0
-	+	53	0
-	+	53	49
-	+	37	32
-	+	64	0
-	+	66	0
-	+	55	18
-	+	39	0
-	+	40	0
-	+	53	0
-	+	37	30
-	+	41	40
-	+	55	290
-	+	57	24
-	+	44	14
-	+	44	38
-	+	44	38
-	+	44	14
-	+	49	0
-	+	45	15
-	+	1	0
-	+	45	67
-	+	46	72
-	+	47	70
-	+	48	116
-	+	48	14
-	+	48	132
-	+	48	117
-	o	45	15
-
-> ~/dowhale/coldleads4cash/.gitignore
-	"	41	8
-	^	41	9
-	.	41	8
-	+	36	2
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	0
-	+	21	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	28	0
-	+	29	0
-	+	30	0
-	+	31	0
-	+	32	0
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	2	0
-	+	2	0
-	+	41	8
-
-> ~/.ssh/config
-	"	7	12
-	^	7	13
-	.	7	12
-	+	5	0
-	+	6	5
-	+	8	9
-	+	7	12
-
 > ~/projects/wlcc-automation-dashboard/.gitignore
 	"	1	0
 	^	1	5
@@ -499,9 +723,6 @@ $
 	+	3	11
 	+	2	4
 	+	1	5
-
-> ~/projects/wlcc-automation-dashboard/.git/MERGE_MSG
-	"	1	0
 
 > ~/zshrc
 	"	1	0
@@ -812,13 +1033,6 @@ $
 	+	1	0
 	+	3	23
 	+	2	14
-
-> ~/.gitconfig
-	"	4	0
-	.	4	0
-	+	4	0
-	+	4	0
-	+	4	0
 
 > ~/projects/docs/logisticapp/README.md
 	"	1	0
@@ -1354,60 +1568,3 @@ $
 
 > dist/partials/tmplPayment_kiosk_dev.html
 	"	1	0
-
-> ~/projects/kmart-kiosk-shop-2/dist/wlcc/js/config/config.js
-	"	25	1
-	^	10	0
-	.	10	0
-	+	11	1
-	+	10	0
-
-> ~/projects/kmart-kiosk-shop-2/tools/apache-tomcat-7.0.42/conf/server.xml
-	"	87	0
-
-> ~/projects/kmart-kiosk-shop-2/tools/apache-tomcat-7.0.42/webapps/kmart_kiosk2/WEB-INF/web.xml
-	"	1	0
-
-> ~/projects/kmart-kiosk-shop-2/tools/apache-tomcat-7.0.42/conf/context.xml
-	"	1	0
-
-> ~/projects/kmart-kiosk-shop-2/tools/apache-tomcat-7.0.42/conf/web.xml
-	"	603	0
-
-> ~/projects/telam/elecciones/trunk/.htaccess
-	"	248	0
-	^	3	1
-	.	3	0
-	+	3	0
-	+	2	5
-	+	3	0
-
-> ~/projects/telam/elecciones/trunk/index.php
-	"	54	51
-	^	54	52
-	.	54	51
-	+	54	51
-
-> /private/etc/apache2/httpd.conf
-	"	238	0
-	^	238	1
-	.	238	0
-	+	237	0
-	+	236	0
-	+	237	14
-	+	238	48
-	+	238	13
-	+	237	0
-	+	238	0
-
-> ~/projects/SCHSSK/main/dev/android/SYWKiosk/src/com/shc/sywkiosk/engine/JavaScriptInterface.java
-	"	34	0
-
-> ~/projects/kmart-kiosk-shop-2/.git/rebase-merge/git-rebase-todo
-	"	2	0
-	^	2	1
-	.	2	0
-	+	1	0
-	+	2	1
-	+	3	0
-	+	2	0
