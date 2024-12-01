@@ -1,4 +1,4 @@
-This are my old configuration files.
+These are my old configuration files.
 
 In the past I used Vim and oh-my-zsh. I've migrated to nvim and zimfw.
 
